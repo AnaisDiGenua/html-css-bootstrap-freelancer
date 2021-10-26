@@ -13,16 +13,15 @@ header, .footer-bottom {
 .footer-top {
     background-color: #3a546d;
 }
+.star-box {
+    line-height: 30px;
+}
 
 
 
 /*jumbotron*/
 #jumbotron img {
     width: 100px;
-    vertical-align: middle;
-}
-#jumbotron .star-box {
-    line-height: 30px;
 }
 #jumbotron .star-box::after, #jumbotron .star-box::before {
     content: "";
@@ -38,16 +37,27 @@ header, .footer-bottom {
 
 
 
+/*portfolio*/
+#portfolio .star-box::after, #portfolio .star-box::before {
+    content: "";
+    width: 15%;
+    height: 2px;
+    display: inline-block;
+    background-color: black;
+    vertical-align: middle;
+}
+#portfolio img {
+    width: 100%;
+}
+
+
+
 
 /* ******debug***** */
 .debug header {
     height: 50px;
 }
-.debug .box {
-    height: 100px;
-    background-color: yellow;
-    border: 1px solid black;
-}
+
 .debug #about {
     height: 200px;
 }
