@@ -16,6 +16,17 @@ header, .footer-bottom {
 .star-box {
     line-height: 30px;
 }
+.star-box::after,.star-box::before {
+    content: "";
+    width: 10%;
+    height: 2px;
+    display: inline-block;
+    background-color: black;
+    vertical-align: middle;
+}
+.star-box.white_color::after, .star-box.white_color::before {
+    background-color: white;
+}
 
 
 
@@ -23,14 +34,7 @@ header, .footer-bottom {
 #jumbotron img {
     width: 100px;
 }
-#jumbotron .star-box::after, #jumbotron .star-box::before {
-    content: "";
-    width: 15%;
-    height: 2px;
-    display: inline-block;
-    background-color: white;
-    vertical-align: middle;
-}
+
 #jumbotron .jobs_list li {
     list-style: none;
 }
@@ -38,14 +42,6 @@ header, .footer-bottom {
 
 
 /*portfolio*/
-#portfolio .star-box::after, #portfolio .star-box::before {
-    content: "";
-    width: 15%;
-    height: 2px;
-    display: inline-block;
-    background-color: black;
-    vertical-align: middle;
-}
 #portfolio img {
     width: 100%;
 }
@@ -58,9 +54,7 @@ header, .footer-bottom {
     height: 50px;
 }
 
-.debug #about {
-    height: 200px;
-}
+
 .debug .footer-top {
     height: 100px;
 }
