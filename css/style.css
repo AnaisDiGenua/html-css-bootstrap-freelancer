@@ -55,6 +55,16 @@ header, .footer-bottom {
 }
 
 
+/*footer*/
+.footer-top i {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+.footer-top a {
+    color: #1abc9c;
+}
+
 
 /* ******debug***** */
 .debug header {
@@ -62,9 +72,6 @@ header, .footer-bottom {
 }
 
 
-.debug .footer-top {
-    height: 100px;
-}
-.debug .footer-bottom {
-    height: 30px;
-}
+
+
+
