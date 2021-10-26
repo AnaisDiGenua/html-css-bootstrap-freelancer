@@ -1,3 +1,4 @@
+/*commons*/
 * {
     margin: 0;
     padding: 0;
@@ -15,12 +16,32 @@ header, .footer-bottom {
 
 
 
+/*jumbotron*/
+#jumbotron img {
+    width: 100px;
+    vertical-align: middle;
+}
+#jumbotron .star-box {
+    line-height: 30px;
+}
+#jumbotron .star-box::after, #jumbotron .star-box::before {
+    content: "";
+    width: 15%;
+    height: 2px;
+    display: inline-block;
+    background-color: white;
+    vertical-align: middle;
+}
+#jumbotron .jobs_list li {
+    list-style: none;
+}
+
+
+
+
 /* ******debug***** */
 .debug header {
     height: 50px;
-}
-.debug #jumbotron {
-    height: 200px;
 }
 .debug .box {
     height: 100px;
