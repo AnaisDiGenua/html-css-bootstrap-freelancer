@@ -48,6 +48,13 @@ header, .footer-bottom {
 
 
 
+/*contact me*/
+.btn-primary {
+    border: none;
+    background-color: #1abc9c;
+}
+
+
 
 /* ******debug***** */
 .debug header {
